@@ -18,6 +18,5 @@ export class CreateProductDTO {
     @IsString()
     category: string;
 
-    @IsDate()
     readonly createAt: Date;
 }
